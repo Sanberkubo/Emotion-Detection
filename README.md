@@ -1,41 +1,47 @@
-*Emotion Detection*
+<div style="text-align:center; margin-bottom: 30px;">
+    <h1 style="font-size: 34px; margin-bottom: 10px;">Emotion Detection</h1>
+    <p style="font-size: 18px; color: #555; margin: 0;">
+        A simple image-based emotion detection system built using a CNN model.
+    </p>
+</div>
 
-A deep-learning–based facial emotion detection system that identifies human emotions from images or video input. The project uses a custom CNN model, dataset preprocessing, data augmentation, and facial recognition utilities to classify emotions such as happy, sad, angry, neutral, and more.
+<h2 style="margin-top:40px;">About the Project</h2>
+<p style="line-height:1.6; font-size:16px;">
+    This project focuses on detecting basic human emotions from facial images using a
+    convolutional neural network. The setup includes preprocessing steps, a trained model,
+    and separate scripts for face detection, dataset handling, and result prediction.
+</p>
 
+<h2 style="margin-top:30px;">Features</h2>
+<ul style="line-height:1.7; font-size:16px;">
+    <li>Detect emotions from images using a trained CNN</li>
+    <li>Separate modules for dataset, face detection and augmentation</li>
+    <li>Easy to extend or retrain with a different dataset</li>
+    <li>Simple command-based execution</li>
+</ul>
 
+<h2 style="margin-top:30px;">Tech Used</h2>
+<ul style="line-height:1.7; font-size:16px;">
+    <li>Python</li>
+    <li>TensorFlow / Keras</li>
+    <li>OpenCV</li>
+    <li>NumPy</li>
+</ul>
 
-
-
-*Features*
-
-- Custom CNN model for emotion classification
-
-- Face detection module to extract faces from raw images
-
-- Dataset loader and preprocessing pipeline
-
-- Data augmentation for improving model performance
-
-- Standalone emotion classifier script
-
-- Modular codebase for easy extension
-
-
-
-
-
-*Emotion-Detection*/
+<h2 style="margin-top:30px;">Project Structure</h2>
+<pre style="background:#f6f6f6; padding:15px; border-radius:8px; font-size:15px;">
+Emotion-Detection/
 │
-├── emotion_classifier/          # Pretrained classifier & utilities
+├── emotion_classifier/
 │   └── emotionclassifier.py
 │
-├── emotion_det_files/           # Model weights, label files, etc.
+├── emotion_det_files/
 │
-├── src_files/                   # Core source code
-│   ├── cnn.py                   # CNN model architecture
-│   ├── dataset.py               # Dataset loader and preprocessing
-│   ├── face_rec.py              # Face detection & extraction
-│   ├── data_augmentation.py     # Augmentation pipeline
-│   └── main.py                  # Training / testing entry point
-│
-└── README.md
+├── src_files/
+│   ├── cnn.py
+│   ├── dataset.py
+│   ├── face_rec.py
+│   ├── data_augmentation.py
+│   └── main.py
+</pre>
+
