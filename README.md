@@ -1,8 +1,13 @@
 *Emotion Detection*
+
 A deep-learning–based facial emotion detection system that identifies human emotions from images or video input. The project uses a custom CNN model, dataset preprocessing, data augmentation, and facial recognition utilities to classify emotions such as happy, sad, angry, neutral, and more.
 
 
+
+
+
 *Features*
+
 - Custom CNN model for emotion classification
 
 - Face detection module to extract faces from raw images
@@ -14,6 +19,9 @@ A deep-learning–based facial emotion detection system that identifies human em
 - Standalone emotion classifier script
 
 - Modular codebase for easy extension
+
+
+
 
 
 *Emotion-Detection*/
